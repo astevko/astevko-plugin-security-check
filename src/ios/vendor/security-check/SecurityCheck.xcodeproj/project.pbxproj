@@ -1,0 +1,346 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48965CF416F2044E00B14F8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48965CF316F2044E00B14F8A /* Foundation.framework */; };
+		48965D0B16F2052000B14F8A /* debugCheckTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48965D0316F2052000B14F8A /* debugCheckTemplate.m */; };
+		48965D0C16F2052000B14F8A /* jailbreakCheckTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48965D0716F2052000B14F8A /* jailbreakCheckTemplate.m */; };
+		48965D0D16F2052000B14F8A /* readSys.s in Sources */ = {isa = PBXBuildFile; fileRef = 48965D0916F2052000B14F8A /* readSys.s */; };
+		48965D1116F2068C00B14F8A /* SecurityCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 48965D0A16F2052000B14F8A /* SecurityCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48965D1216F2068C00B14F8A /* fileCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 48965D0416F2052000B14F8A /* fileCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48965D1316F2068C00B14F8A /* forkCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 48965D0516F2052000B14F8A /* forkCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48965D1416F2068C00B14F8A /* debugCheck.h in Headers */ = {isa = PBXBuildFile; fileRef = 48965D0116F2052000B14F8A /* debugCheck.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48965CEE16F2044E00B14F8A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		48965CF016F2044E00B14F8A /* libSecurityCheck.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSecurityCheck.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48965CF316F2044E00B14F8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		48965CF716F2044E00B14F8A /* SecurityCheck-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecurityCheck-Prefix.pch"; sourceTree = "<group>"; };
+		48965D0116F2052000B14F8A /* debugCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debugCheck.h; sourceTree = "<group>"; };
+		48965D0216F2052000B14F8A /* debugCheckTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debugCheckTemplate.h; sourceTree = "<group>"; };
+		48965D0316F2052000B14F8A /* debugCheckTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = debugCheckTemplate.m; sourceTree = "<group>"; };
+		48965D0416F2052000B14F8A /* fileCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fileCheck.h; sourceTree = "<group>"; };
+		48965D0516F2052000B14F8A /* forkCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forkCheck.h; sourceTree = "<group>"; };
+		48965D0616F2052000B14F8A /* jailbreakCheckTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jailbreakCheckTemplate.h; sourceTree = "<group>"; };
+		48965D0716F2052000B14F8A /* jailbreakCheckTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = jailbreakCheckTemplate.m; sourceTree = "<group>"; };
+		48965D0816F2052000B14F8A /* libASM.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = libASM.h; sourceTree = "<group>"; };
+		48965D0916F2052000B14F8A /* readSys.s */ = {isa = PBXFileReference; explicitFileType = sourcecode.asm; fileEncoding = 4; path = readSys.s; sourceTree = "<group>"; };
+		48965D0A16F2052000B14F8A /* SecurityCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityCheck.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48965CED16F2044E00B14F8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48965CF416F2044E00B14F8A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		48965CE716F2044E00B14F8A = {
+			isa = PBXGroup;
+			children = (
+				48965CF516F2044E00B14F8A /* SecurityCheck */,
+				48965CF216F2044E00B14F8A /* Frameworks */,
+				48965CF116F2044E00B14F8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		48965CF116F2044E00B14F8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48965CF016F2044E00B14F8A /* libSecurityCheck.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		48965CF216F2044E00B14F8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48965CF316F2044E00B14F8A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48965CF516F2044E00B14F8A /* SecurityCheck */ = {
+			isa = PBXGroup;
+			children = (
+				48965D0A16F2052000B14F8A /* SecurityCheck.h */,
+				48965D0F16F2055400B14F8A /* JailbreakCheck */,
+				48965D0E16F2052900B14F8A /* DebugCheck */,
+				48965CF616F2044E00B14F8A /* Supporting Files */,
+			);
+			path = SecurityCheck;
+			sourceTree = "<group>";
+		};
+		48965CF616F2044E00B14F8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				48965CF716F2044E00B14F8A /* SecurityCheck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		48965D0E16F2052900B14F8A /* DebugCheck */ = {
+			isa = PBXGroup;
+			children = (
+				48965D0816F2052000B14F8A /* libASM.h */,
+				48965D0916F2052000B14F8A /* readSys.s */,
+				48965D0116F2052000B14F8A /* debugCheck.h */,
+				48965D0216F2052000B14F8A /* debugCheckTemplate.h */,
+				48965D0316F2052000B14F8A /* debugCheckTemplate.m */,
+			);
+			name = DebugCheck;
+			sourceTree = "<group>";
+		};
+		48965D0F16F2055400B14F8A /* JailbreakCheck */ = {
+			isa = PBXGroup;
+			children = (
+				48965D0416F2052000B14F8A /* fileCheck.h */,
+				48965D0516F2052000B14F8A /* forkCheck.h */,
+				48965D0616F2052000B14F8A /* jailbreakCheckTemplate.h */,
+				48965D0716F2052000B14F8A /* jailbreakCheckTemplate.m */,
+			);
+			name = JailbreakCheck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		48965D1016F2067200B14F8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48965D1116F2068C00B14F8A /* SecurityCheck.h in Headers */,
+				48965D1216F2068C00B14F8A /* fileCheck.h in Headers */,
+				48965D1316F2068C00B14F8A /* forkCheck.h in Headers */,
+				48965D1416F2068C00B14F8A /* debugCheck.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		48965CEF16F2044E00B14F8A /* SecurityCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48965CFE16F2044E00B14F8A /* Build configuration list for PBXNativeTarget "SecurityCheck" */;
+			buildPhases = (
+				48965CEC16F2044E00B14F8A /* Sources */,
+				48965CED16F2044E00B14F8A /* Frameworks */,
+				48965CEE16F2044E00B14F8A /* CopyFiles */,
+				48965D1016F2067200B14F8A /* Headers */,
+				48965D1516F2080600B14F8A /* Prepare Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecurityCheck;
+			productName = SecurityCheck;
+			productReference = 48965CF016F2044E00B14F8A /* libSecurityCheck.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		48965CE816F2044E00B14F8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = IMS;
+			};
+			buildConfigurationList = 48965CEB16F2044E00B14F8A /* Build configuration list for PBXProject "SecurityCheck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 48965CE716F2044E00B14F8A;
+			productRefGroup = 48965CF116F2044E00B14F8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				48965CEF16F2044E00B14F8A /* SecurityCheck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48965D1516F2080600B14F8A /* Prepare Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Prepare Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nmkdir -p \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n# Link the \"Current\" version to \"A\"\n/bin/ln -sfh A \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/${PRODUCT_NAME}\"\n\n# The -a ensures that the headers maintain the source modification date so that we don't constantly\n# cause propagating rebuilds of files that import these headers.\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework/Versions/A/Headers\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48965CEC16F2044E00B14F8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48965D0B16F2052000B14F8A /* debugCheckTemplate.m in Sources */,
+				48965D0C16F2052000B14F8A /* jailbreakCheckTemplate.m in Sources */,
+				48965D0D16F2052000B14F8A /* readSys.s in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		48965CFC16F2044E00B14F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-finline-limit=5000";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+			};
+			name = Debug;
+		};
+		48965CFD16F2044E00B14F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 1;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-finline-limit=5000";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PUBLIC_HEADERS_FOLDER_PATH = "$(PROJECT_NAME)Headers";
+				SDKROOT = iphoneos;
+				STRIP_STYLE = "non-global";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		48965CFF16F2044E00B14F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SecurityCheck.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecurityCheck/SecurityCheck-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = NO;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		48965D0016F2044E00B14F8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SecurityCheck.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecurityCheck/SecurityCheck-Prefix.pch";
+				GCC_VERSION = "";
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SEPARATE_STRIP = NO;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48965CEB16F2044E00B14F8A /* Build configuration list for PBXProject "SecurityCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48965CFC16F2044E00B14F8A /* Debug */,
+				48965CFD16F2044E00B14F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48965CFE16F2044E00B14F8A /* Build configuration list for PBXNativeTarget "SecurityCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48965CFF16F2044E00B14F8A /* Debug */,
+				48965D0016F2044E00B14F8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 48965CE816F2044E00B14F8A /* Project object */;
+}
