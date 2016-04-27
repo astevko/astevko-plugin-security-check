@@ -50,7 +50,8 @@
         <config-file target="config.xml" parent="/*">
             <feature name="SC">
                 <param name="ios-package" value="SC"/>
-            </feature>
+        	<param name="onload" value="true" />
+	    </feature>
         </config-file>
 
         <header-file src="src/ios/SC.h" />
